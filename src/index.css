@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@layer components {
+    .modal-todo {
+      @apply fixed max-w-[500px] w-full top-[50%] left-[50%] bg-white translate-y-[-50%] translate-x-[-50%] z-20;
+    }
+    .overlay {
+      @apply fixed top-0 left-0 w-full h-full bg-[rgba(34,34,34,0.5)] blur-[3px] z-10;
+    }
+    .complated {
+      @apply bg-[rgb(202,201,201)] opacity-50;
+    }
+}
+
+
+

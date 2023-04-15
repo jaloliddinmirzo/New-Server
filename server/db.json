@@ -1,16 +1,8 @@
 {
-  "cards": [
+  "odamlar": [
     {
-      "title": "Wolf",
-      "author": "book",
-      "id": 1
-    }
-  ],
-  "book": [
-    {
-      "title": "84545s",
-      "author": "NOtebook",
-      "sa": "sola",
+      "text": "dvdscd",
+      "complited": false,
       "id": 1
     }
   ]
